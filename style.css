@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Голова бля */
+
+li {
+	list-style: none;
+}
+
+header {
+	border-bottom: 1px solid rgb(232, 232, 232);
+	height: 91px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+.hd {
+	text-decoration: none;
+	margin-right: 34px;
+	color: rgba(5, 0, 56, 1);
+}
+
+.hd:hover {
+	text-decoration: underline;
+}
+
+/* Часть 1 бля*/
+
+.sec {
+	display: flex;
+	align-items: center;
+	margin: 60px 40px 0 40px;
+}
+.image1 {
+}
+h1 {
+	color: #050038;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 56px;
+	width: 285px;
+	height: 168px;
+}
+
+.paragrarh {
+	color: #050038;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	width: 424px;
+	height: 48px;
+}
+
+input {
+	padding: 10px;
+	margin-top: 50px;
+	width: 440px;
+	height: 40px;
+	border-radius: 32px;
+	border: 1px solid #9b99af;
+	margin-bottom: 10px;
+}
+button {
+	width: 440px;
+	height: 40px;
+	border-radius: 32px;
+	border: 1px solid #4262ff;
+	background: #4262ff;
+	color: aliceblue;
+	margin-bottom: 8px;
+}
+button:hover {
+	background: #5f7aff;
+}
+
+.small {
+	color: #050038;
+	width: 342px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.logo {
+	margin-top: 47px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+/* Часть 2 бля*/
+
+.sec2 {
+	margin: 150px 40px 0 40px;
+	display: flex;
+	align-items: center;
+}
+
+.middle h2 {
+	color: #050038;
+	width: 454px;
+	height: 168px;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 56px; /* 116.667% */
+	letter-spacing: 1px;
+}
+
+.middle p {
+	margin-top: 19px;
+	color: #696688;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	width: 436px;
+	height: 120px;
+}
+
+.middle a {
+	color: #4262ff;
+	margin-top: 39px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	width: 133px;
+}
+
+.image2 {
+	margin-left: 110px;
+}
+
+.sec3 {
+	display: flex;
+	align-items: center;
+	margin: 120px 40px 94px 40px;
+}
+
+.down {
+	display: inline;
+	order: 2;
+	margin-left: 115px;
+}
+
+.down h2 {
+	color: #050038;
+	width: 432px;
+	height: 168px;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 56px; /* 116.667% */
+}
+
+.down p {
+	margin: 19px 0 29px 0;
+	color: rgba(5, 0, 56, 0.6);
+	width: 429px;
+	height: 120px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.down a {
+	color: #4262ff;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+footer {
+	background: #050038;
+	height: 117px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+footer a {
+	margin: 47px 0 46px 40px;
+	color: #fff;
+
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+}
